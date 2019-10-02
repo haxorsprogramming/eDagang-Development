@@ -13,6 +13,11 @@ class Report extends CI_Controller
 	{
 		redirect('account');
 	}
+	
+	function bella()
+	{
+		$slurp = "";
+	}
 
 	function income_today()
 	{
